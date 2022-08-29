@@ -24,7 +24,7 @@ When app is started, it will start the express web server and configure it as pe
 When the server receives a request, it is first routed to correct `module` via top-level routes defined under `api` directory, then the rest of the request's url is matched against the API routes supported by that module. If a match is found for the incoming request then the app passes the request through various `middelwares` configured for that route (if any) if request passes through all configured middlewares then the app executes the handler function for that route and responds back to the client with corresponding status code and JSON body in response. 
 
 ### API Routes
-The project contains a [Postman](https://www.postman.com/) collection. Below table lists out the supported api routes.
+The project contains a [Postman](https://www.postman.com/) collection in file `nodejs authentication.postman_collection.json`. Below table lists out the supported api routes.
 
 | Method | Route | Description |
 | ------ | ------ | ------ |
