@@ -43,3 +43,4 @@ To validate schema of data submitted by client (viz request body, query params, 
 ## Future Improvements
 1. Unit testing
 2. Use various redis modules like RedisSearch and RedisJSON
+3. use Typescript for better typed definitions and dev experience
